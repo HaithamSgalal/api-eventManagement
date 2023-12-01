@@ -27,7 +27,7 @@ class EventReminderNotification extends Notification implements ShouldQueue
      *
      * @return array<int, string>
      */
-    php 
+   
     public function via(object $notifiable): array
     {
         return ['mail'];
